@@ -8,8 +8,8 @@ import goop from '../../public/Group 67.svg'
 
 export default function Footer() {
   return (
-    <div className="container mx-auto bg-black-500 mt-50px">
-      <div className=" flex justify-between">
+    <div className="container mx-auto mt-50px">
+      <div className=" flex justify-between rounded-3xl bg-black px-20px py-50px  "> 
         <div>
           <div>
             <img src={frma} alt="" />
@@ -27,33 +27,31 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <p className="text-14px ">О компании</p> <br />
-          <p className="text-14px">Производители</p> <br />
-          <p className="text-14px">Доставка</p> <br />
-          <p className="text-14px"> Оплата</p> <br />
+          <p className="text-14px text-[#FFFFFF] ">О компании</p> <br />
+          <p className="text-14px text-[#FFFFFF]">Производители</p> <br />
+          <p className="text-14px text-[#FFFFFF]">Доставка</p> <br />
+          <p className="text-14px text-[#FFFFFF]"> Оплата</p> <br />
         </div>
         <div>
-          <p className="text-14px ">Каталог</p> <br />
-          <p className="text-14px">Новости</p> <br />
-          <p className="text-14px">Реквизиты</p> <br />
-          <p className="text-14px"> Контакты</p> <br />
+          <p className="text-14px text-[#FFFFFF] ">Каталог</p> <br />
+          <p className="text-14px text-[#FFFFFF]">Новости</p> <br />
+          <p className="text-14px text-[#FFFFFF]">Реквизиты</p> <br />
+          <p className="text-14px text-[#FFFFFF]"> Контакты</p> <br />
         </div>
         <div>
-          <p className="text-14px">Заказать обратный звонок</p> <br />
-          <p className="text-14px mt-30px">
+          <p className="text-14px text-[#FFFFFF]">Заказать обратный звонок</p> <br />
+          <p className="text-14px  text-[#FFFFFF] mt-30px">
             {" "}
-            Россия, Удмуртская Республика <br /> 426011, г. Ижевск, ул.
-            Пушкинская 290 <br />
+            Россия, Удмуртская Республика <br /> <br /> 426011, г. Ижевск, ул.
+            Пушкинская 290 <br /> <br />
             тел. 8 (3412) 65-08-77
           </p>
         </div>
         <div>
-          <p className="text-14px">Заказать обратный звонок</p> <br />
-          <p className="text-14px mt-30px">
-            {" "}
-            Россия, Удмуртская Республика <br /> 426011, г. Ижевск, ул.
-            Пушкинская 290 <br />
-            тел. 8 (3412) 65-08-77
+          <p className="text-14px text-[#FFFFFF]">Заказать обратный звонок</p> <br />
+          <p className="text-14px text-[#FFFFFF] mt-30px">
+          ООО «Boksmed» © 2015 - 2022. <br /> <br />
+Сайт носит информационный характер <br /> <br /> и не является публичной офертой.
           </p>
         </div>
       </div>

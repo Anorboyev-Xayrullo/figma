@@ -34,7 +34,7 @@ export default function Section2() {
        </div>
        </div>
      </div>
-     <div>
+     <div>  
      <div className='rounded-3xl bg-white flex px-20px py-5px '>
      <div className='mt-100px'>
      <h2 className='text-[#111111] text-18px'>СШИВАЮЩИЕ <br /> <br />ИНСТРУМЕНТЫ</h2>
